@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Log.w(TAG, "onCreate: MaiinAcivity WARNING");
         Log.i(TAG, "onCreate: MaiinAcivity INFORMATION");
         Log.v(TAG, "onCreate: MaiinAcivity VERBOSE");
+
         findViewById(R.id.btnPicFile).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
